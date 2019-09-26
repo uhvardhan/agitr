@@ -18,9 +18,17 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(hello hello.cpp)
 add_executable(pubvel pubvel.cpp)
 add_executable(subpose subpose.cpp)
+add_executable(count count.cpp)
+add_executable(once once.cpp)
+add_executable(throttle throttle.cpp)
+add_executable(anon anon.cpp)
 
 # Specify libraries against which to link. Again, this line should be copies for
 # each distinct excutable in the package.
 target_link_libraries(hello ${catkin_LIBRARIES})
 target_link_libraries(pubvel ${catkin_LIBRARIES})
 target_link_libraries(subpose ${catkin_LIBRARIES})
+target_link_libraries(count ${catkin_LIBRARIES})
+target_link_libraries(once ${catkin_LIBRARIES})
+target_link_libraries(throttle ${catkin_LIBRARIES})
+target_link_libraries(anon ${catkin_LIBRARIES})
