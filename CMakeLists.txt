@@ -22,6 +22,7 @@ add_executable(count count.cpp)
 add_executable(once once.cpp)
 add_executable(throttle throttle.cpp)
 add_executable(anon anon.cpp)
+add_executable(reverse_cmd_vel reverse_cmd_vel.cpp)
 
 # Specify libraries against which to link. Again, this line should be copies for
 # each distinct excutable in the package.
@@ -32,3 +33,4 @@ target_link_libraries(count ${catkin_LIBRARIES})
 target_link_libraries(once ${catkin_LIBRARIES})
 target_link_libraries(throttle ${catkin_LIBRARIES})
 target_link_libraries(anon ${catkin_LIBRARIES})
+target_link_libraries(reverse_cmd_vel ${catkin_LIBRARIES})
