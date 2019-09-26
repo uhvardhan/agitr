@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>agitr</name>
+  <version>0.0.0</version>
+  <description>Examples from A Gentle Introduction to ROS</description>
+  <maintainer email="iamharsh@gwu.edu">Harshvardhan</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <build_depend>turtlesim</build_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <build_depend>roscpp</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <build_depend>turtlesim</build_depend>
+  <exec_depend>turtlesim</exec_depend>
+</package>
